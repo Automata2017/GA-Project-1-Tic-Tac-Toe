@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="functions.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="mygame">
+        <h1>Welcome to Tic Tac Toe!</h1>
+
+        <p id="instructions">The game rules are very simple,
+            just tap on the box to make it an <span style="color: red">X</span> or <span style="color: blue">O</span>. <br>
+        </br><span style="color: red">Player X</span> always starts first.<br>
+        </br><span style="color: blue">Player O</span> is always second.<br>
+        </br> Have fun!
+        </p>
+
+        <br>
+        <input type="text" id="block1" 
+            onclick="firstBlock(); gameTicTacToe();" readonly>
+        <input type="text" id="block2" 
+            onclick="secondBlock(); gameTicTacToe();" readonly>
+        <input type="text" id="block3" 
+            onclick="thirdBlock(); gameTicTacToe();" readonly>
+        
+        <br>
+        <input type="text" id="block4" 
+            onclick="fourthBlock(); gameTicTacToe();" readonly>
+        <input type="text" id="block5" 
+            onclick="fifthBlock(); gameTicTacToe();" readonly>
+        <input type="text" id="block6" 
+            onclick="sixthBlock(); gameTicTacToe();" readonly>
+        
+        <br>
+        <input type="text" id="block7" 
+            onclick="seventhBlock(); gameTicTacToe();" readonly>
+        <input type="text" id="block8" 
+            onclick="eighthBlock(); gameTicTacToe();" readonly>
+        <input type="text" id="block9" 
+            onclick="ninthBlock(); gameTicTacToe();" readonly>
+        
+        <br>
+        <button id="resetButton" onclick="resetGame()">
+            RESET        
+        </button>
+
+        <br><br>
+        <p id="playerTurn"></p>
+    </div>
+</body>
+
+</html>

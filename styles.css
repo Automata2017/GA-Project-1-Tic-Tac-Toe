@@ -1,0 +1,49 @@
+#block1, #block2, #block3, #block4, #block5, #block6, #block7, #block8, #block9 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    background-color: grey;
+}
+
+h1 {
+    color: purple;
+    font-size: 50px;
+    font-family: serif;
+}
+
+#instructions {
+    font-family: sans-serif;
+          
+    color: white;
+    font-size: 17px;
+}
+
+#resetButton {
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 4px;
+    font-family: sans-serif;
+
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#playerTurn {
+    font-family: sans-serif;
+    color: white;
+}
+
+#mygame {
+    text-align: center;
+}
